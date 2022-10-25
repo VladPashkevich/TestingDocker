@@ -1,5 +1,5 @@
 import { Column, PrimaryGeneratedColumn, Entity } from 'typeorm';
-
+// create Entity User
 @Entity('users')
 export class Users {
   @PrimaryGeneratedColumn('uuid')
